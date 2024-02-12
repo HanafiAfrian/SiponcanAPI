@@ -1,0 +1,7 @@
+{
+    "require": {
+        "nesbot/carbon": "^2.55",
+        "guzzlehttp/guzzle": "^7.4",
+        "desarrolla2/cache": "^3.0"
+    }
+}

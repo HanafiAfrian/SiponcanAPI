@@ -1,0 +1,9 @@
+
+   @font-face {
+         font-family: "bernardmtcondensed";
+         src: url('bernardmtcondensed.ttf');
+         }
+ 
+   .bernardmtcondensed {
+         font-family: "bernardmtcondensed";
+         }

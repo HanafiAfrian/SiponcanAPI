@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://siponcan.sibolgakota.go.id/assets/slot-gacor/sitemap.xml

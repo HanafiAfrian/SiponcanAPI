@@ -1,0 +1,9 @@
+<div class="view view-second"">
+<img src="img/009.jpg" width="400" height="400"> 
+   <div class="mask">
+      
+   <a class="info" href="#">Read More Teruskan jika Ingin Menambahkan lebih banyak gambar </a>
+   </div>
+</div>
+
+

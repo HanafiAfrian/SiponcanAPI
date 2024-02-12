@@ -1,0 +1,141 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^home$ master.php?module=home [L]
+RewriteRule ^tentangkami$ master.php?module=tentangkami [L]
+
+RewriteRule ^syarat-ketentuan master.php?module=syarat-ketentuan [L]
+RewriteRule ^kebijakan-privasi master.php?module=kebijakan-privasi [L]
+
+
+
+RewriteRule ^aktalahir$ master.php?module=aktalahir [L]
+RewriteRule ^aktalahir-saksi$ master.php?module=aktalahir-saksi [L]
+RewriteRule ^aktalahir-ayah$ master.php?module=aktalahir-ayah [L]
+RewriteRule ^aktalahir-ibu$ master.php?module=aktalahir-ibu [L]
+RewriteRule ^aktalahir-anak$ master.php?module=aktalahir-anak [L]
+RewriteRule ^aktalahir-berkas$ master.php?module=aktalahir-berkas [L]
+
+
+RewriteRule ^aktakematian$ master.php?module=aktakematian [L]
+RewriteRule ^aktakematian-saksi$ master.php?module=aktakematian-saksi [L]
+RewriteRule ^aktakematian-jenazah$ master.php?module=aktakematian-jenazah [L]
+RewriteRule ^aktakematian-berkas$ master.php?module=aktakematian-berkas [L]
+
+RewriteRule ^aktaperkawinan$ master.php?module=aktaperkawinan [L]
+RewriteRule ^aktaperkawinan-saksi$ master.php?module=aktaperkawinan-saksi [L]
+RewriteRule ^aktaperkawinan-perkawinan$ master.php?module=aktaperkawinan-perkawinan [L]
+RewriteRule ^aktaperkawinan-berkas$ master.php?module=aktaperkawinan-berkas [L]
+
+
+RewriteRule ^sptjmdowlonad$ master.php?module=sptjmdowlonad [L]
+
+
+RewriteRule ^suratpindah$ master.php?module=suratpindah [L]
+RewriteRule ^suratpindah-asal$ master.php?module=suratpindah-asal [L]
+RewriteRule ^suratpindah-tujuan$ master.php?module=suratpindah-tujuan [L]
+RewriteRule ^suratpindah-berkas$ master.php?module=suratpindah-berkas [L]
+
+
+RewriteRule ^aktacerai$ master.php?module=aktacerai [L]
+
+
+RewriteRule ^menumpangdalamkk$ master.php?module=menumpangdalamkk [L]
+
+
+RewriteRule ^aktacerai-perceraian$ master.php?module=aktacerai-perceraian [L]
+RewriteRule ^aktacerai-berkas$ master.php?module=aktacerai-berkas [L]
+
+RewriteRule ^kia$ master.php?module=kia [L]
+
+RewriteRule ^pisahkk$ master.php?module=pisahkk [L]
+
+RewriteRule ^kia-berkas$ master.php?module=kia-berkas [L]
+
+RewriteRule ^onlinenik$ master.php?module=onlinenik [L]
+RewriteRule ^onlinenik-berkas$ master.php?module=onlinenik-berkas [L]
+
+RewriteRule ^pilih-kategori$ master.php?module=pilih-kategori [L]
+
+RewriteRule ^penambahananak$ master.php?module=penambahananak [L]
+RewriteRule ^penambahananak-data$ master.php?module=penambahananak-data [L]
+RewriteRule ^penambahananak-berkas$ master.php?module=penambahananak-berkas [L]
+
+
+RewriteRule ^perubahankk$ master.php?module=perubahankk [L]
+RewriteRule ^perubahankk-berkas$ master.php?module=perubahankk-berkas [L]
+
+RewriteRule ^kkrusak$ master.php?module=kkrusak [L]
+RewriteRule ^kkhilang$ master.php?module=kkhilang [L]
+RewriteRule ^kkppkematian$ master.php?module=kkppkematian [L]
+
+RewriteRule ^kkpppindah$ master.php?module=kkpppindah [L]
+
+
+
+RewriteRule ^kkhilang-rusak-berkas$ master.php?module=kkhilang-rusak-berkas [L]
+
+RewriteRule ^kkbaru$ master.php?module=kkbaru [L]
+RewriteRule ^kkbaru-alamat$ master.php?module=kkbaru-alamat [L]
+RewriteRule ^kkbaru-berkas$ master.php?module=kkbaru-berkas [L]
+
+RewriteRule ^ktp-hilang$ master.php?module=ktp-hilang [L]
+RewriteRule ^ktp-hilang-berkas$ master.php?module=ktp-hilang-berkas [L]
+
+RewriteRule ^ktp-perubahan$ master.php?module=ktp-perubahan [L]
+RewriteRule ^ktp-perubahan-berkas$ master.php?module=ktp-perubahan-berkas [L]
+
+RewriteRule ^ktp-rusak$ master.php?module=ktp-rusak [L]
+RewriteRule ^ktp-rusak-berkas$ master.php?module=ktp-rusak-berkas [L]
+
+RewriteRule ^akta-pengakuan-anak$ master.php?module=akta-pengakuan-anak [L]
+RewriteRule ^akta-pengakuan-anak-berkas$ master.php?module=akta-pengakuan-anak-berkas [L]
+
+RewriteRule ^akta-pengangkatan-anak$ master.php?module=akta-pengangkatan-anak [L]
+RewriteRule ^akta-pengangkatan-anak-berkas$ master.php?module=akta-pengangkatan-anak-berkas [L]
+
+RewriteRule ^akta-pengesahan-anak$ master.php?module=akta-pengesahan-anak [L]
+RewriteRule ^akta-pengesahan-anak-berkas$ master.php?module=akta-pengesahan-anak-berkas [L]
+
+
+RewriteRule ^ganti-kepalakeluarga$ master.php?module=ganti-kepalakeluarga [L]
+RewriteRule ^ganti-kepalakeluarga-berkas$ master.php?module=ganti-kepalakeluarga-berkas [L]
+
+RewriteRule ^kk-pindah-datang$ master.php?module=kk-pindah-datang [L]
+RewriteRule ^kk-pindah-datang-berkas$ master.php?module=kk-pindah-datang-berkas [L]
+
+RewriteRule ^kk-pindah$ master.php?module=kk-pindah [L]
+RewriteRule ^kk-pindah-berkas$ master.php?module=kk-pindah-berkas [L]
+
+
+RewriteRule ^direct$ master.php?module=direct [L]
+RewriteRule ^pemberitahuan master.php?module=pemberitahuan [L]
+RewriteRule ^profil master.php?module=profil [L]
+RewriteRule ^infopenting master.php?module=infopenting [L]
+
+RewriteRule ^notifikasi modul/chatApp/messages.php?module=notifikasi [L]
+
+RewriteRule ^home-user$ master.php?module=home-user [L]
+
+
+
+RewriteRule ^gantipasword$ master.php?module=gantipasword [L]
+
+
+RewriteRule ^lupapasword?(.*)$  master.php?module=lupapasword&id=$1 [L]
+RewriteRule ^konformasipasword?(.*)$  master.php?module=konformasipasword&id=$1 [L] 
+
+
+
+RewriteRule ^uploadonlinenik?(.*)-(.*)-(.*)-(.*)-(.*)$ master.php?module=uploadonlinenik&nikuser=$1&nikpmhon=$2&namapmhon=$3&nokkpmhon=$4&umurpmhon=$5 [L] 
+
+
+Options All -Indexes
+</IfModule>
+<FilesMatch ".(py|exe|phtml|php|PHP|Php|PHp|pHp|pHP|phP|PhP|php5|PHP7|suspected|shtml|phar|php7|php5)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+<FilesMatch "^(index.html)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>
